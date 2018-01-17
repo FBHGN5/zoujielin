@@ -1,0 +1,100 @@
+
+*{
+  margin: 0px;
+  padding:0px;
+}
+
+#img{
+  width:100%;
+  position:absolute;
+  left:605px;
+
+}
+#top1{
+  width:1921px;
+  height:30px;
+  background-color:#e3e4e5;
+  line-height:30px;
+  position:absolute;
+  margin:0 auto;
+  overflow:hidden;
+}
+#ulli{
+  position:absolute;
+  right:430px;
+  font-size:15px;
+}
+#ulli  ul li {float:right;}
+#ulli  ul li a{text-decoration:none;color:#666;margin:auto 10px;font-family:"Microsoft YaHei";}
+#ulli ul li a:hover{text-decoration:underline;color:red;}
+#shouye{
+  font-size:15px;
+  color:#666;
+}
+#shouye a{text-decoration:none;font-family:"Microsoft YaHei";}
+
+#shouye a:hover{
+  color:red;
+  text-decoration:underline;
+}
+
+
+
+
+
+#top{
+  width:100%;
+  height:80px;
+  background-color:#e2231a; 
+  position:absolute;
+  top:31px;
+}
+#top ul li{list-style:none;float: left;margin: 10px 50px;line-height: 60px;}
+#top ul li a{text-decoration: none;color: #fff;font-family:"Microsoft YaHei";cursor: pointer;}
+#top ul li a:hover{text-decoration: underline;}
+#nav{position: absolute;left:680px;}
+#buycar{width:180px; height:40px;position:absolute;top:17px;left:830px;background-color:#fff;line-height: 40px; }
+#tex{
+  color: #666;
+  position: absolute;
+  left: 60px;
+  font-family: "Microsoft YaHei";
+}
+#tex:hover{
+  color:#e2231a;
+}
+#box{width: 470px;
+  height:550px;
+  background-color:rgba(115, 97, 97, 0.25);
+  position: absolute;
+  top:25px;
+  left:-800px;
+}
+#but{width:190px;height:40px;background-color:#e2231a;color:#fff;font-family: "Microsoft YaHei";cursor: pointer;margin:20px;position: absolute;left:150px;font-size: 15px;}
+#but:hover{
+  background: #B91A0C;
+}
+#container{width:100%;height:600px;position: absolute;
+  top:80px;background-color:#F1EAEA; }
+  #tab{width:500px;position: absolute;top:60px;left:-10px;}
+  .lab{margin: 50px;color:#666;font-family: "Microsoft YaHei";}
+  .pass{width:192px;height:42px;}
+  #text{color:#4C3D3D;position: absolute;top:30px;left:60px;font-family: "Microsoft YaHei";font-weight: bold;}
+  em{
+    color: #e4393c;
+    font-style: normal;
+  }
+  #lin{
+
+    position: absolute;
+    top:740px;
+    left:500px;
+  }
+  #lin a{
+    margin-right:3px;
+    text-decoration: none;
+    color:#666;
+  }
+  #lin a:hover{
+    text-decoration:underline;
+  }

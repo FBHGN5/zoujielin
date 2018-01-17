@@ -1,0 +1,143 @@
+/*简单reset*/
+* {
+    margin: 0;
+
+}
+/*必须，关系到单个page能否全屏显示*/
+html,
+body {
+    height: 100%;
+    font-family:"Microsoft YaHei";
+    overflow:hidden;
+}
+#container,
+.sections,
+.section {
+
+    position: relative;
+    /*必须，关系到单个page能否全屏显示*/
+    height: 100%;
+}
+.section {
+    /*有背景图时必须，关系到背景图能够全屏显示*/
+    background-color: #DCB2B2;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+#title{
+    width:100%;
+    height:80px;
+    color:#fff;
+    position:fixed;
+    top:0px;
+    /* background: rgba(0,162,230,0.8); */
+    z-index:1000;
+    line-height: 75px;
+}
+
+#section0 {
+    width:auto;
+    height:auto;
+}
+#deo{
+    width:100%;
+    height:866px;
+    z-index:-9999;
+    overflow:hidden;
+    margin-top:1px;
+}
+#video{
+    width:100%;
+    z-index:-9999;
+    margin-top:-399px;
+}
+#vid{
+    width:100%;
+    height:865px;
+    z-index:-9999;
+    margin-top:204px;
+    overflow:hidden;
+}
+#video1{
+    width:100%;
+    z-index:-9999;
+    margin-top:-399px;
+}
+#section1 {
+    height:1080px;
+    background-image: url(../image/bag.jpg);
+}
+#section2 {
+    width:auto;
+    height:auto;
+    /*  background-image: url(../image/img3.jpg); */
+}
+#section3 {
+    background-image: url(../image/login.jpg);
+}
+/*以下样式用来设置slider样式，可自行修改*/
+.pages {
+    position:fixed;
+    right: 10px;
+    top: 50%;
+    list-style: none;
+}
+.pages li {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;/* 设置圆形按钮 */
+    background: #fff;
+    margin: 15px 0 0 7px;
+    cursor:pointer;
+}
+.pages li.active {
+    margin-left: 0;
+    width: 14px;
+    height: 14px;
+    border: 4px solid #FFFFFF;
+    background: none;
+}
+
+.mid{width:100%;
+    height:110px;
+    color:#fff;
+    position:absolute;
+    top:370px;
+    left:540px;
+}
+.lab{margin-left:68px;}
+.lab a{text-decoration:none;color:#fff;margin:0 48px;font-size:18px;opacity:0.9;}
+.lab a:hover{text-decoration:underline;opacity:1;}
+.welcome{
+    margin-left:256px;
+    font-size:50px;
+}
+.mid hr{
+    width:838px;
+}
+dd li{float:right;list-style:none;opacity:1;}
+dd li a{text-decoration:none;color:#fff;margin:0 20px;cursor:pointer;font-size:18px;opacity: 0.9;}
+dd li a:hover{text-decoration:underline;opacity:1;}
+p{color:#fff;}
+.zc{
+    position:absolute;
+    top:380px;
+    left:660px;
+    display:none;
+}
+.zc a{margin:0 50px;font-size:18px;margin-left:127px;}
+.zc a:hover{text-decoration:underline;}
+.zc hr{width:600px;}
+a{text-decoration:none;color:#fff;}
+.zc1{
+    font-size:40px;
+    margin-left:218px;
+}
+#login{
+    position:absolute;
+    top:180px;
+    left:660px;
+}
+#login a{margin:0 20px;font-size:18px;margin-left:70px;}
+#login a:hover{text-decoration:underline;}
+#login hr{width:600px;}
